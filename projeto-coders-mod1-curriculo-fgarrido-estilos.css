@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Kalam:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;            
+}
+
+body { background-color: #171023; }
+
+header {
+    background-color: #1e152c;
+    position: sticky;
+    top: 0;    
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;    
+}
+
+.logo a { text-decoration: none; }
+
+.logo h1 {    
+    font-size: 2rem;
+    font-family: 'Kalam';
+    font-weight: 700;
+    background-image: linear-gradient(90deg, #9955E8, #7BFFAF);    
+    background-clip: text;
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item { margin: 0rem 0.938rem; }
+
+.nav-link {
+    color: white;
+    font-family: 'Heebo';
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color .3s ease;    
+}
+
+.nav-link:hover {    
+    color: lime;
+}
+
+.home {    
+    display: flex;
+    padding: 96px 112px;
+    align-items: center;
+    justify-content: center;
+    gap: 8.5rem;    
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    border: 2px white solid;    
+    margin-left: 0;
+}
+
+.conteudo-home {
+    color: white;
+    margin-left: 0;
+}
+
+h2 .span-hello { color: rgb(248, 44, 204); }
+
+h2 .span-world { color: lime; }
+
+.conteudo-home h2 {
+    font-family: 'Kalam';
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.conteudo-home h3 {
+    font-family: 'Heebo';
+    font-size: 1.563rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.conteudo-home p {
+    font-family: 'Heebo';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container-sobre-mim {
+    border-radius: 25px;
+    background-color: #2C243B;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;    
+    padding: 96px 112px;
+    margin: 0rem 2.5rem;
+    gap: 8.5rem;
+}
+
+.imagem-sobre-mim {
+    border-radius: 10%;
+    border: 2px white solid;
+    box-shadow: 10px 10px 0 #1e152c;        
+}
+
+.conteudo-sobre-mim { color: white; }
+
+.conteudo-sobre-mim h2 {
+    color: lime;
+    font-family: 'Kalam';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.conteudo-sobre-mim h3 {
+    font-family: 'Heebo';
+    font-size: 1.563rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.conteudo-sobre-mim p {
+    font-family: 'Heebo';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1rem;       
+}
+
+.experiencias {    
+    display: flex;
+    padding: 96px 112px;
+    align-items: center;
+    justify-content: center;
+    gap: 8.5rem;    
+}
+
+.conteudo-experiencias {
+    margin-left: 0;
+}
+
+.conteudo-experiencias h2 {    
+    color: lime;
+    font-family: 'Kalam';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.conteudo-experiencias table {
+    text-align: start;
+    table-layout: auto;    
+    border-collapse: separate; 
+    border-spacing: 7.5px;
+    width: 100%;    
+}
+
+.conteudo-experiencias table td, th {
+    padding: 1rem;        
+}
+
+.whitespace {
+    white-space: nowrap;     
+}
+
+.whitespace span {
+    display: flex;    
+    align-items: center;    
+    gap: 5px;
+}
+
+.whitespace img {    
+    width: 30px;
+    height: 30px;
+}
+
+.conteudo-experiencias th {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Heebo';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;    
+}
+
+.conteudo-experiencias td {
+    color: black;
+    background-color:white;
+    border-radius: 5px;
+    font-family: 'Heebo';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;    
+}
+
+.tecnologias-dev img, .tecnologias-mkt img {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+}
+
+.tecnologias-dev span, .tecnologias-mkt span {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;    
+    gap: 0.5rem;
+}
+
+/* .idiomas {
+    background-color: #171023;      
+} */
+
+.container-idiomas {    
+    margin: 0rem 2.5rem;
+    padding: 96px 112px;
+    border-radius: 25px;
+    background-color: #2C243B;
+}
+
+.conteudo-idiomas {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+.conteudo-idiomas div {    
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;    
+    box-shadow: 8.5px 8.5px 0 #1e152c;
+    border: 5px solid #1e152c;
+    padding: 2rem;
+    margin-top: 1.5rem;
+    min-width: 185px;
+    background-color: #2C243B;
+
+}
+
+.container-idiomas h2 {
+    color: lime;
+    font-family: 'Kalam';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.conteudo-idiomas span {
+    display: flex;
+    align-items: center;
+    gap: 0.313rem;
+}
+
+.conteudo-idiomas h3 {
+    font-family: 'Heebo';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: underline;    
+}
+
+.conteudo-idiomas li {
+    font-family: 'Heebo';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.objetivos {    
+    display: flex;
+    flex-direction: column;
+    padding: 96px 112px;    
+    justify-content: left;        
+}
+
+.conteudo-objetivos {
+    color: white;
+    margin-left: 0;
+}
+
+.conteudo-objetivos h2 {
+    color: lime;
+    font-family: 'Kalam';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;    
+}
+
+.conteudo-objetivos ol {
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;    
+    box-shadow: 8.5px 8.5px 0 #1e152c;
+    border: 5px solid #1e152c;
+    padding: 2rem;
+    margin-top: 1rem;
+    background-color: #2C243B;
+}
+
+.conteudo-objetivos img {
+    width: 30px;
+    height: 30px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;    
+}
+
+.conteudo-objetivos li {
+    font-family: 'Heebo';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: small-caps;    
+}
+
+/* .contato {
+    background-color: #171023;      
+} */
+
+.container-contato{
+    border-radius: 25px;
+    background-color: #2C243B;
+    display: flex;    
+    padding: 96px 112px;
+    align-items: center;    
+    margin: 0rem 2.5rem;
+    gap: 8.5rem;
+}
+
+.foto-contato {
+    border-radius: 50%;
+    border: 2px white solid;    
+    margin-left: 0;    
+}
+
+.conteudo-contato {
+    color: white;
+    margin-left: 0;
+}
+
+.conteudo-contato h2 {
+    color: lime;
+    font-family: 'Kalam';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;    
+}
+
+.conteudo-contato h3 {
+    font-family: 'Heebo';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.conteudo-contato p {
+    font-family: 'Heebo';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1rem;       
+}
+
+.conteudo-contato img {    
+    margin-top: 12px;
+    margin-right: 20px;  
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input#form-nome, input#form-email {
+    color: white;    
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;    
+    width: 488px;
+    padding: 12px 16px;   
+    border-radius: 8px;    
+    background: #171023;
+}
+
+#form-mensagem {
+    color: white;    
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;    
+    width: 488px;
+    height: 90px;
+    padding: 12px 16px;        
+    border-radius: 8px;    
+    background: #171023;
+}
+
+#form-botao {
+    color: white;    
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;    
+    display: flex;    
+    padding: 16px 24px;    
+    width: 244px;    
+    border: none;
+    border-radius: 10px;      
+    background: #8A42DB;
+    cursor: pointer;
+}
+
+input, textarea { outline-style: none; }
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    border: 2px solid;
+    border-color: lime; 
+}
+
+#form-botao:active { background: limegreen; }
+
+/* footer {
+    background-color: #171023;    
+} */
+
+.footer-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    color: white;
+}
+
+.footer-bar p {
+    display: flex;
+    align-items: center;
+    font-family: 'Heebo';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;        
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-list ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-item { margin: 0rem 0.938rem; }
+
+.footer-link {
+    color: white;
+    font-family: 'Heebo';
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+.footer-link:hover {    
+    color: lime;
+}
