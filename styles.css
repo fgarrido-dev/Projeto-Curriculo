@@ -199,8 +199,8 @@ h2 .span-world { color: lime; }
 }
 
 .conteudo-experiencias th {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #2C243B;
     border-radius: 5px;
     font-family: 'Heebo';
     font-size: 1.5rem;
@@ -210,8 +210,8 @@ h2 .span-world { color: lime; }
 }
 
 .conteudo-experiencias td {
-    color: black;
-    background-color:white;
+    color: white;
+    background-color: #2C243B;
     border-radius: 5px;
     font-family: 'Heebo';
     font-size: 1rem;
