@@ -57,14 +57,14 @@ header {
     font-size: 1rem;
     font-weight: 400;
     text-decoration: none;
-    transition: color .3s ease;    
+    transition: color .5s ease;    
 }
 
 .nav-link:hover {    
     color: lime;
 }
 
-.home {    
+.container-home {    
     display: flex;
     padding: 96px 112px;
     align-items: center;
@@ -78,7 +78,7 @@ header {
     margin-left: 0;
 }
 
-.conteudo-home {
+.secao-home {
     color: white;
     margin-left: 0;
 }
@@ -87,21 +87,21 @@ h2 .span-hello { color: rgb(248, 44, 204); }
 
 h2 .span-world { color: lime; }
 
-.conteudo-home h2 {
+.secao-home h2 {
     font-family: 'Kalam';
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
 }
 
-.conteudo-home h3 {
+.secao-home h3 {
     font-family: 'Heebo';
     font-size: 1.563rem;
     font-style: normal;
     font-weight: 500;
 }
 
-.conteudo-home p {
+.secao-home p {
     font-family: 'Heebo';
     font-size: 1rem;
     font-style: normal;
@@ -125,9 +125,9 @@ h2 .span-world { color: lime; }
     box-shadow: 10px 10px 0 #1e152c;        
 }
 
-.conteudo-sobre-mim { color: white; }
+.secao-sobre-mim { color: white; }
 
-.conteudo-sobre-mim h2 {
+.secao-sobre-mim h2 {
     color: lime;
     font-family: 'Kalam';
     font-size: 2rem;
@@ -135,14 +135,14 @@ h2 .span-world { color: lime; }
     font-weight: 400;
 }
 
-.conteudo-sobre-mim h3 {
+.secao-sobre-mim h3 {
     font-family: 'Heebo';
     font-size: 1.563rem;
     font-style: normal;
     font-weight: 500;
 }
 
-.conteudo-sobre-mim p {
+.secao-sobre-mim p {
     font-family: 'Heebo';
     font-size: 1rem;
     font-style: normal;
@@ -150,7 +150,7 @@ h2 .span-world { color: lime; }
     margin-top: 1rem;       
 }
 
-.experiencias {    
+.container-experiencias {    
     display: flex;
     padding: 96px 112px;
     align-items: center;
@@ -158,11 +158,11 @@ h2 .span-world { color: lime; }
     gap: 8.5rem;    
 }
 
-.conteudo-experiencias {
+.secao-experiencias {
     margin-left: 0;
 }
 
-.conteudo-experiencias h2 {    
+.secao-experiencias h2 {    
     color: lime;
     font-family: 'Kalam';
     font-size: 2rem;
@@ -171,14 +171,14 @@ h2 .span-world { color: lime; }
     margin-bottom: 1.5rem;
 }
 
-.conteudo-experiencias table {
+.secao-experiencias table {
     text-align: start;
     table-layout: auto;    
     border-collapse: separate; 
     border-spacing: 7.5px;        
 }
 
-.conteudo-experiencias table td, th {
+.secao-experiencias table td, th {
     padding: 1rem;        
 }
 
@@ -197,7 +197,7 @@ h2 .span-world { color: lime; }
     height: 30px;
 }
 
-.conteudo-experiencias th {
+.secao-experiencias th {
     color: white;
     background-color: #2C243B;
     border-radius: 5px;
@@ -208,7 +208,7 @@ h2 .span-world { color: lime; }
     text-align: center;    
 }
 
-.conteudo-experiencias td {
+.secao-experiencias td {
     color: white;
     background-color: #2C243B;
     border-radius: 5px;
@@ -239,14 +239,13 @@ h2 .span-world { color: lime; }
     background-color: #2C243B;
 }
 
-.conteudo-idiomas {
+.secao-idiomas {
     display: flex;
     justify-content: space-around;
-    color: white;
-    
+    color: white;    
 }
 
-.conteudo-idiomas div {    
+.secao-idiomas div {    
     list-style-position: inside;
     display: flex;
     flex-direction: column;
@@ -257,7 +256,6 @@ h2 .span-world { color: lime; }
     margin-top: 1.5rem;
     min-width: 215px;
     background-color: #2C243B;
-
 }
 
 .container-idiomas h2 {
@@ -268,13 +266,13 @@ h2 .span-world { color: lime; }
     font-weight: 400;
 }
 
-.conteudo-idiomas span {
+.secao-idiomas span {
     display: flex;
     align-items: center;
     gap: 0.313rem;
 }
 
-.conteudo-idiomas h3 {
+.secao-idiomas h3 {
     font-family: 'Heebo';
     font-size: 1rem;
     font-style: normal;
@@ -282,26 +280,26 @@ h2 .span-world { color: lime; }
     text-decoration: underline;    
 }
 
-.conteudo-idiomas li {
+.secao-idiomas li {
     font-family: 'Heebo';
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
 }
 
-.objetivos {    
+.container-objetivos {    
     display: flex;
     flex-direction: column;
     padding: 96px 112px;    
     justify-content: left;        
 }
 
-.conteudo-objetivos {
+.secao-objetivos {
     color: white;
     margin-left: 0;
 }
 
-.conteudo-objetivos h2 {
+.secao-objetivos h2 {
     color: lime;
     font-family: 'Kalam';
     font-size: 2rem;
@@ -309,7 +307,7 @@ h2 .span-world { color: lime; }
     font-weight: 400;    
 }
 
-.conteudo-objetivos ol {
+.secao-objetivos ol {
     list-style-position: inside;
     display: flex;
     flex-direction: column;
@@ -321,14 +319,14 @@ h2 .span-world { color: lime; }
     background-color: #2C243B;
 }
 
-.conteudo-objetivos img {
+.secao-objetivos img {
     width: 30px;
     height: 30px;
     padding-left: 7.5px;
     padding-right: 7.5px;    
 }
 
-.conteudo-objetivos li {
+.secao-objetivos li {
     font-family: 'Heebo';
     font-size: 1.25rem;
     font-style: normal;
@@ -352,12 +350,12 @@ h2 .span-world { color: lime; }
     margin-left: 0;    
 }
 
-.conteudo-contato {
+.secao-contato {
     color: white;
     margin-left: 0;
 }
 
-.conteudo-contato h2 {
+.secao-contato h2 {
     color: lime;
     font-family: 'Kalam';
     font-size: 2rem;
@@ -365,14 +363,14 @@ h2 .span-world { color: lime; }
     font-weight: 400;    
 }
 
-.conteudo-contato h3 {
+.secao-contato h3 {
     font-family: 'Heebo';
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
 }
 
-.conteudo-contato p {
+.secao-contato p {
     font-family: 'Heebo';
     font-size: 1rem;
     font-style: normal;
@@ -380,7 +378,7 @@ h2 .span-world { color: lime; }
     margin-top: 1rem;       
 }
 
-.conteudo-contato img {    
+.secao-contato img {    
     margin-top: 12px;
     margin-right: 20px;  
 }
@@ -475,7 +473,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
     font-size: 1rem;
     font-weight: 400;
     text-decoration: none;
-    transition: color .3s ease;
+    transition: color .5s ease;
 }
 
 .footer-link:hover {    
