@@ -232,10 +232,6 @@ h2 .span-world { color: lime; }
     gap: 0.5rem;
 }
 
-/* .idiomas {
-    background-color: #171023;      
-} */
-
 .container-idiomas {    
     margin: 0rem 2.5rem;
     padding: 96px 112px;
@@ -340,10 +336,6 @@ h2 .span-world { color: lime; }
     font-variant: small-caps;    
 }
 
-/* .contato {
-    background-color: #171023;      
-} */
-
 .container-contato{
     border-radius: 25px;
     background-color: #2C243B;
@@ -447,10 +439,6 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 }
 
 #form-botao:active { background: limegreen; }
-
-/* footer {
-    background-color: #171023;    
-} */
 
 .footer-bar {
     display: flex;
